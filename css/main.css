@@ -1,0 +1,96 @@
+body {
+    display: inline-block;
+    width: 1000px;
+    margin-top: 200px;
+    margin-left: calc(50% - 500px);
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+article {
+    width: 170px;
+    max-height: 200px;
+    margin-left: 60px;
+}
+
+
+img {
+    width: 150px;
+    height: 150px;
+    padding: 33px;
+}
+
+article > img:last-of-type {
+    margin-left: 0px;
+
+}
+
+.users {
+    background-color: #70C0C9;
+}
+
+.random {
+    background-color: #4074BD;
+}
+
+.apple-pay {
+    background-color: #E05E46;
+}
+
+.university {
+    background-color: #919191;
+}
+
+h1 {
+    width: 150px;
+    margin-top: 15px;
+    text-align: center;
+    color: #E46D5E;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+p {
+    margin-top: 15px;
+    text-align: center;
+}
+
+a {
+    position: absolute;
+    text-decoration: none;
+    background-color: #fff;
+    border: 2px solid;
+    border-radius: 40px;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: 17px;
+    font-weight: bolder;
+    top: 194px;
+}
+
+.number {
+    left: 320px;
+    border-color: #64b1b9;
+    color: #70C0C9;
+}
+
+.two-number {
+    left: 550px;
+    border-color: #3866a7;
+    color: #4074BD;
+}
+
+.three-number {
+    left: 780px;
+    border-color: #c9533e;
+    color: #E05E46;
+}
+
+.forth-number {
+    left: 1010px;
+    border-color: #727070;
+    color: #919191;
+}
