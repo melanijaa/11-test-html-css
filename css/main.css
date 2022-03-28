@@ -1,31 +1,24 @@
 body {
     display: inline-block;
-    width: 1000px;
-    margin-top: 200px;
-    margin-left: calc(50% - 500px);
+    width: 900px;
+    margin-top: 150px;
+    margin-left: calc(50% - 450px);
 }
 
 .container {
     display: flex;
-    width: 100%;
 }
 
-article {
-    width: 170px;
-    max-height: 200px;
+section {
+    position: relative;
+    width: 150px;
     margin-left: 60px;
 }
-
 
 img {
     width: 150px;
     height: 150px;
     padding: 33px;
-}
-
-article > img:last-of-type {
-    margin-left: 0px;
-
 }
 
 .users {
@@ -45,8 +38,7 @@ article > img:last-of-type {
 }
 
 h1 {
-    width: 150px;
-    margin-top: 15px;
+    margin-top: 8px;
     text-align: center;
     color: #E46D5E;
     font-weight: bolder;
@@ -54,43 +46,40 @@ h1 {
 }
 
 p {
-    margin-top: 15px;
+    margin-top: 8px;
     text-align: center;
 }
 
-a {
-    position: absolute;
-    text-decoration: none;
+div {
     background-color: #fff;
-    border: 2px solid;
+    padding: 3px 9px;
     border-radius: 40px;
-    padding-left: 6px;
-    padding-right: 6px;
-    font-size: 17px;
+    border: 2px solid;
+    font-size: 14px;
     font-weight: bolder;
-    top: 194px;
+    text-decoration: none;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    
 }
 
-.number {
-    left: 320px;
+.client {
     border-color: #64b1b9;
     color: #70C0C9;
 }
 
-.two-number {
-    left: 550px;
+.messaging {
     border-color: #3866a7;
     color: #4074BD;
 }
 
-.three-number {
-    left: 780px;
+.sales {
     border-color: #c9533e;
     color: #E05E46;
 }
 
-.forth-number {
-    left: 1010px;
+.campaign {
     border-color: #727070;
     color: #919191;
 }
